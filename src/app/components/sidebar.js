@@ -10,7 +10,7 @@ const Sidebar = ({ isOpen, isDarkMode }) => {
     <div
       className={`h-screen text-black shadow-lg transition-all duration-300 overflow-hidden 
         ${isOpen ? "w-56" : "w-16"} fixed left-0 top-14 
-        ${isDarkMode ? "bg-black-900 text-white" : "bg-white text-black"}`}
+        ${isDarkMode ? "bg-black text-white" : "bg-white text-black"}`}
     >
       <ul className="flex flex-col gap-2 p-3">
         {[

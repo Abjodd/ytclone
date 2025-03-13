@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 const Navbar = ({ toggleSidebar, toggleDarkMode, isDarkMode }) => (
-  <div className={`w-full ${isDarkMode ? "bg-black-900 text-white" : "bg-white text-black"} flex items-center justify-between p-3 fixed top-0 left-0 z-50 shadow-md h-14`}>
+  <div className={`w-full ${isDarkMode ? "bg-black text-white" : "bg-white text-black"} flex items-center justify-between p-3 fixed top-0 left-0 z-50 shadow-md h-14`}>
     {/* Toggle Sidebar Button */}
     <button onClick={toggleSidebar} className="text-2xl p-2">
       <FaBars />
