@@ -45,6 +45,7 @@ export default function Home() {
         {/* Scrollable Content Area */}
         <div className="flex-1 overflow-y-auto p-4">
           <HomePage isSidebarOpen={isSidebarOpen} isDarkMode={isDarkMode} />
+          
         </div>
       </div>
     </div>
