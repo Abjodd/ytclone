@@ -5,8 +5,8 @@ export default function VideoCard({ video }) {
   return (
     <div className="bg-white w-[320px] p-4 rounded-lg shadow-md border border-gray-200 transition-all duration-300 hover:shadow-xl">
       {/* Video Player */}
-      <div className="relative w-full h-[180px] rounded-lg overflow-hidden bg-black">
-        <video controls className="w-full h-auto rounded-lg">
+      <div className="relative h-[320px] rounded-lg overflow-hidden bg-black">
+        <video controls className="w-full h-full object-contain rounded-lg">
           <source src={video.videoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
